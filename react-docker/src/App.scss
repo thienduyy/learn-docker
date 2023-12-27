@@ -1,0 +1,100 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.2rem 2rem;
+  min-height: 2.8rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: inherit !important;
+    border-color: transparent !important;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.App {
+  overscroll-behavior-y: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 8vw;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+.btn__scale {
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+}
+
+.input {
+  height: 40px;
+}
+
+//flex
+
+.f-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// spacing
+
+.mt-8 {
+  margin-top: 8px !important;
+}
+
+.mt-16 {
+  margin-top: 16px !important;
+}
+.mt-24 {
+  margin-top: 24px !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+
+.modal-black {
+  color: aliceblue;
+  .ant-modal-content {
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    padding: 20px 50px 30px !important;
+  }
+}
+
+.btn__tinderColor {
+  background: linear-gradient(to top right, #fd267a, #ff6036);
+  color: var(--color--white);
+  border-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  outline: none;
+  transition: all 0.3s ease;
+  padding: 0 30px !important;
+  &:hover {
+    color: var(--color--white) !important;
+  }
+}

@@ -1,0 +1,28 @@
+.tinder__logo {
+  svg:not(:root) {
+    overflow: hidden;
+  }
+  width: 150px;
+  margin-right: 24px;
+  display: block;
+  svg {
+    fill: currentColor;
+    vertical-align: middle;
+  }
+}
+
+.header__wrapper {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  position: fixed;
+  width: calc(100% - 60px);
+  top: 0;
+}
+
+.header_btn {
+  border: none;
+  padding: 0.2rem 1rem;
+}
